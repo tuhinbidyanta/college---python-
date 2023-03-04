@@ -1,2 +1,0 @@
-# college---python-
-Jhere de
