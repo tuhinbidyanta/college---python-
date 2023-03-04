@@ -50,3 +50,30 @@ for i in a:
         min_value = i
 print("the minimum value of list without using min() function is",min_value)
 #---------------------------------------------------------------------------------------------
+
+#-------------------------appending value into a list ----------------------------------------
+a=[1,2,0,5,3,5,8]
+a.append(19) # now the value appended into list
+print("after appending the value into list",a)
+#---------------------------------------------------------------------------------------------
+
+#------------------------removing a value from list-------------------------------------------
+a=[1,2,0,5,3,5,8]
+a.remove(2) #it remove the element 2
+print("after removing the element 2 the list is",a)
+#---------------------------------------------------------------------------------------------
+
+#---------------------------------------------------------list slicing------------------------
+#this is the most important part in list 
+#naturally the index of list starts from 0
+a=[1,2,0,5,3,5,8] 
+#1 element has index 0
+#2 element has index 1
+# same way
+print("the value of index 0 ",a[0])
+print("the value of index 1 ",a[1])
+print("the value of index 2 ",a[2])
+print("the value of index 3 ",a[3])
+# -----------------------------------------------------------------------------------------------
+
+
