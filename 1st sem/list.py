@@ -74,6 +74,21 @@ print("the value of index 0 ",a[0])
 print("the value of index 1 ",a[1])
 print("the value of index 2 ",a[2])
 print("the value of index 3 ",a[3])
+# list slicing
+print(a[0:3])
+print(a[:3])
+print(a[3:])
 # -----------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------array ----------------------------------
+a=[1,2,0,5,3,5,8] 
+import numpy as np
+# to know about numpy in details visit numpy official website 
+# to know about all numpy function import numpy and then print(dir(numpy))
+array = np.array(a)
+print(array) # the comma will not apear in array
+#you can apply any list operation in array and many more
+#-------------------------------------------------------------------------------------------------
+
 
 
