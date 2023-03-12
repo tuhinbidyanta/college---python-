@@ -1,35 +1,20 @@
-# use of for loop 
-for i in range(2,10,2):
-    print(i)
-for i in range(2,10):
-    print(i)
-for i in range(-10,2,2):
-    print(i)
-# -----------------------------------------------------------------------------------
 
-# ---------------------------------------appending a value --------------------------
-a=[]
-for i in range(4):
-    a.append(i)
-print(a)
-#in array we can not cange the size
-# ---------------------------------------------------------------------------------------
+#when we need a repeated work we used loop 
 
-#------------------- input data in 2d array using a function ----------------------------
-import numpy as tuhin
-m= int(input("ENTER THE NUMBER OF ROWS \t"))
-n = int (input("ENTER THE NUMBER OF COLUMNS \t"))
-column_1 = []
-for i in range(m):
-    column_1.append([])
-    
-for i in range(m):
-    for j in range(n):
-        column_1[i].append(j)
-        column_1[i][j] = 1
-# print("\?n")
-for i in range(m):
-    for j in range(n):
-        column_1[i][j] = 2*(i+j)
-c11 = tuhin.array(column_1)
-print(column_1,"\n",c11)
+#-------------------------------------------------- example 1 -----------------------------
+
+#write down the first 10 natural number using for loop
+for i in range(0,11,1): #here starting point is 0 and ending point is 10 and increament is 1
+    print(i)
+
+#print the number from 2 to 10 using for loop
+for j in range(2,10):
+    print(j)
+#print the number from -10 ,2 with increament 2
+for k in range(-10,3,2):
+    print(k)
+
+# now print the element of a list 
+list  = [1,5,2,8,7,4,9,6,3,5,4,8]
+for element in list:
+    print(element)
